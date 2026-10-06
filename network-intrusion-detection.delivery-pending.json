@@ -1,0 +1,8 @@
+{
+  "schemaVersion": 1,
+  "command": "deliver",
+  "status": "pending",
+  "receiptId": "92974027-2765-446c-90af-7db622408fd7",
+  "input": "C:\\Users\\SIDDHARTH\\OneDrive\\Desktop\\pushhub\\03-network-intrusion-detection\\.archify\\architecture-network-intrusion-detection-20261004-092402\\candidate.json",
+  "output": "C:\\Users\\SIDDHARTH\\OneDrive\\Desktop\\pushhub\\03-network-intrusion-detection\\network-intrusion-detection.html"
+}

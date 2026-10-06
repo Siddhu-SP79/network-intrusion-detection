@@ -1,0 +1,67 @@
+{
+  "schemaVersion": 1,
+  "ok": false,
+  "command": "finalize",
+  "status": "fail",
+  "type": "architecture",
+  "quality": "showcase",
+  "specification": {
+    "path": "C:\\Users\\SIDDHARTH\\OneDrive\\Desktop\\pushhub\\03-network-intrusion-detection\\.archify\\architecture-network-intrusion-detection-20261004-092402\\candidate.json",
+    "sha256": "bf9014d3aafa6ce5363f057b8aa94cd4b02679435574c06a5c99eea4008bcc5f",
+    "bytes": 5851
+  },
+  "artifact": {
+    "path": "C:\\Users\\SIDDHARTH\\OneDrive\\Desktop\\pushhub\\03-network-intrusion-detection\\network-intrusion-detection.html"
+  },
+  "gates": {
+    "validate": "fail",
+    "deliver": "not-run",
+    "check": "not-run",
+    "browser-check": "not-run"
+  },
+  "failedStage": "validate",
+  "diagnostics": [
+    {
+      "code": "repository-evidence/repository-required",
+      "severity": "error",
+      "message": "Repository evidence requires /meta/repository.",
+      "subject": {
+        "surface": "repository-evidence",
+        "path": "/meta/repository",
+        "diagramType": "architecture",
+        "collection": "components"
+      },
+      "supportedFixes": [
+        "add the pinned repository metadata or remove /components sources"
+      ]
+    }
+  ],
+  "diagnosticSummary": {
+    "total": 1,
+    "shown": 1,
+    "truncated": false
+  },
+  "evidence": {
+    "receipt": "C:\\Users\\SIDDHARTH\\OneDrive\\Desktop\\pushhub\\03-network-intrusion-detection\\network-intrusion-detection.finalize.json",
+    "summaryReceipt": "C:\\Users\\SIDDHARTH\\OneDrive\\Desktop\\pushhub\\03-network-intrusion-detection\\network-intrusion-detection.finalize-summary.json"
+  },
+  "update": {
+    "status": "unavailable",
+    "installedVersion": null,
+    "availableVersion": null,
+    "releaseNotes": null,
+    "checkedAt": null,
+    "source": null,
+    "noticeRequired": false,
+    "noticeText": null,
+    "reason": "timeout"
+  },
+  "visualReview": "not-requested",
+  "durationMs": 3647,
+  "nextAction": {
+    "action": "edit-in-place",
+    "candidate": "C:\\Users\\SIDDHARTH\\OneDrive\\Desktop\\pushhub\\03-network-intrusion-detection\\.archify\\architecture-network-intrusion-detection-20261004-092402\\candidate.json",
+    "constraint": "Preserve all semantics and user-fixed geometry. Use references/architecture-layout-repair.md to choose a local repair or connected-scene reflow; edit the existing candidate.",
+    "then": "finalize-once"
+  }
+}
